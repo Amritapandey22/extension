@@ -1,0 +1,145 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Profiles</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+      
+
+
+      <style>
+          html,body{
+            font-family: 'Open Sans',sans-serif;
+            font-size: 14px;
+            margin:0;
+            min-height: 180px;
+            padding:0;
+            width:384px;
+          }
+
+          h1{
+            font-family: 'Menlo',monospace;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+            
+            color:cadetblue;
+          }
+          h1 p{
+            font-family: 'Menlo',monospace;
+            font-size: 20px;
+            font-weight: 300;
+            margin: 0;
+            margin-top: 10px;
+            
+            color:rgb(201, 132, 41);
+          }
+
+          a:link,a:visited{
+            color:#000;
+            outline:0;
+            text-decoration:none;
+          }
+
+          .logo img{
+            width:30px;
+            border-right: 200px;
+          }
+          .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada ;
+
+          }
+          .modal-content{
+            padding:0 22px;
+          }
+
+          .modal-icons{
+            border-top: 0.5px solid #dadada;
+            height:50px;
+            width:100%; 
+          }
+          .logo{
+            padding:16px;
+
+          }
+          .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+          }
+          .version{
+            color: #444;
+            font-size: 18px;
+          }
+
+          .flex-container{
+            display:flex;
+            justify-content: space-between;
+            padding:10px 8px;
+          }
+
+          .flex-container img{
+            height:40px;
+            width:40px;
+            border-radius: 50%;
+          }
+
+          .flex{
+            opacity:1;
+            transition: opacity 0.2s ease-in-out;
+          }
+          .flex:hover{
+            opacity:0.4;
+          }
+
+          
+      </style>
+
+  </head>
+  <body>
+      <div class="modal-header">
+        <h1 class="logo">
+            My Profiles 
+            <span class="version">(1.0.0)</span>
+            <p>Easily access your profiles</p>
+        
+        </h1>
+      </div>
+      <div class="modal-icons">
+          <div class="flex-container">
+              <div class="flex">
+                  <a href="https://github.com/Amritapandey22" target="blank"  target="blank">
+                    
+                    <img src="github-icon.png" alt="">
+                  </a>
+                  
+              </div>
+              <div class="flex">
+                <a href="https://auth.geeksforgeeks.org/user/pamrita891" target="blank"> 
+                  
+                  <img src="gfg.png" alt="">
+                </a>
+                
+            </div>
+            <div class="flex">
+                <a href="https://leetcode.com/AmritaPandey/" target="blank">
+                  
+                  <img src="leetcode-icon.png" alt="">
+                </a>
+                
+            </div>
+            <div class="flex">
+                <a href="https://www.codechef.com/users/amritaa" target="blank">
+                  <!-- <i class="fa fa-globe "></i>  -->
+                  <img src="codechef.png" alt="">
+                </a>
+                
+            </div> 
+            
+          </div>
+      </div>
+      <script src="popup.js"></script>
+  </body>
+  </html>
